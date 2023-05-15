@@ -456,6 +456,9 @@ main = async () =>
         sh.backgroundColor = "red";
 
     const matrix_manip = new Matrix_manipulator();
+    
+    
+    /* TODO : refactor code */
 
       
     const timer = new Timer().init(1000);
