@@ -275,7 +275,7 @@ class Matrix_manipulator
     
         for(let i = 0; i < matrix1.length; i++)
         {
-            const new_point = {x:0, y:0, z:0}; //each point got the transformation on the right dimension from each axes sinse those axes are not anymore align with the 0
+            const new_point = {x:0, y:0, z:0};
     
             new_point.x = matrix1[i].x * matrix2[0].x + matrix1[i].y * matrix2[0].y + matrix1[i].z * matrix2[0].z;
             new_point.y = matrix1[i].x * matrix2[1].x + matrix1[i].y * matrix2[1].y + matrix1[i].z * matrix2[1].z;
@@ -302,7 +302,7 @@ class Matrix_manipulator
     
         for(let i = 0; i < matrix.length; i++)
         {
-            const new_point = {x:0, y:0, z:0}; // each points got the exact same transformation on their components
+            const new_point = {x:0, y:0, z:0}; 
     
             new_point.x = matrix[i].x + x;
             new_point.y = matrix[i].y + y;
