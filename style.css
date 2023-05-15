@@ -1,0 +1,19 @@
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+#myVideo{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: -200px;
+    left: 0px;
+    z-index: -1;
+}
+
+#masked{
+    mask: url("#mask");
+}
